@@ -26,7 +26,7 @@ namespace ariel {
                 T& operator*()const {return pointer->val;}
                 //pointer.
                 T* operator -> ()const{return &(pointer->val);}
-                //Overload  ++ from right.
+                //Overload  ++ from right.   
                 Iterator& operator ++(){
 
                     return *this;
